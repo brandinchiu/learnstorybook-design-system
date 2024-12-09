@@ -18,6 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "build-storybook-docs": "storybook build  --docs",
+    "test-storybook": "test-storybook",
     "chromatic": "npx chromatic --project-token=chpt_ae91937bc1fdbad"
   },
   "devDependencies": {
@@ -33,6 +35,8 @@
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-terser": "^0.4.3",
+    "@storybook/addon-a11y": "^8.4.7",
+    "@storybook/addon-coverage": "^1.0.4",
     "@storybook/addon-essentials": "^8.4.7",
     "@storybook/addon-interactions": "^8.4.7",
     "@storybook/addon-onboarding": "^8.4.7",
@@ -40,6 +44,7 @@
     "@storybook/react": "^8.4.7",
     "@storybook/react-vite": "^8.4.7",
     "@storybook/test": "^8.4.7",
+    "@storybook/test-runner": "^0.20.1",
     "@vitejs/plugin-react": "^3.1.0",
     "auto": "^10.3.0",
     "boxen": "^5.0.1",
